@@ -1,5 +1,10 @@
 -- GLOBAL --
 :h keyword - open help for keyword
+:sav[eas] file - save file as
+:clo[se] - close current pane
+:ter[minal] - open a terminal window
+K - open man page for word under cursor
+
 
 -- CURSOR MOVEMENT --
 h - move left
@@ -143,3 +148,34 @@ n - repeat search in same direction
 N - repeat search in opposite direction
 :%s/old/new/g - replace all old with new throughout file
 :%s/old/new/gv - replace all old with new throughout file with confirmations
+
+
+-- TABS --
+:tabnew - open a file in a new tab
+Ctrl + wT - move the current split window into its own tab
+gt - move to next tab
+gT - move to previous tab
+#gt - move to tab number #
+:tabc - close the current tab and all its windows
+:tabo - close all tabs except for the current one
+:tabdo cmd - runs cmd on all tabs (e.g. :tabdo q - closes all opened tabs)
+
+
+-- MULTIPLE FILES --
+:e file - edit file in new buffer
+:bn - go to next buffer
+:bp - go to previous buffer
+:bd - delete a buffer (close file)
+:b# - go to buffer index #
+:b file - go to buffer by file
+:ls - list all open buffers
+:sp file - open a file in a new buffer and split window
+:vs file - open a file in a new buffer and vertically split window
+
+Ctrl + ws - split window
+Ctrl + wv - split vertically
+Ctrl + ww - switch windows
+Ctrl + wq - quit a window
+Ctrl + wh - move cursor to left window
+Ctrl + wl - move cursor to right window
+
