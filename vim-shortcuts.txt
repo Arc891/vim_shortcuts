@@ -1,0 +1,45 @@
+-- GLOBAL --
+:h keyword - open help for keyword
+
+-- CURSOR MOVEMENT --
+h - move left
+j - move down
+k - move up
+l - move right
+
+H - move to top of screen
+M - move to middle of screen
+L - move to bottom of screen
+
+w - jump forwards to start of word
+e - jump forwards to end of word
+b - jump backwards to start of word
+
+0 - move to start of line
+$ - move to end of line
+
+gg - go to first line of document
+G -  go to last line of document
+
+Ctrl + e - move screen down one line (without moving cursor)
+Ctrl + y - move screen up one line (without moving cursor)
+Ctrl + b - move back one full screen (u for half)
+Ctrl + f - move forward one full screen (d for half)
+
+
+-- INSERT MODE --
+i - insert before cursor
+I - insert at beginning of line
+a - insert after cursor
+A - insert at end of line
+o - append (open) a new line below the current line
+O - append (open) a new line above the current line
+ea - append at the end of word
+
+Ctrl + w - delete word before cursor during insert mode 
+Ctrl + n - insert (auto-complete) next match before cursor
+
+
+-- EDITING --
+r - replace a single character
+R - replace more than one character until ESC is pressed
